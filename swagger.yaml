@@ -218,6 +218,8 @@ definitions:
         type: string
   transactions:
     title: 7. Transactions
+    aliases:
+        - Transactions
     description: >-
       Part 7 discloses purchases, sales, or exchanges of real property or
       securities in excess of $1,000 made on behalf of the filer, the filer's
@@ -238,6 +240,8 @@ definitions:
       type:
         type: string
       date:
+        type: string
+      notification_received_over_30_days_ago:
         type: string
       amount:
         type: string
