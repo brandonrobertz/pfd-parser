@@ -241,7 +241,7 @@ definitions:
         type: string
       date:
         type: string
-      notification_received_over_30_days_ago:
+      notification-received-over-30-days-ago:
         type: string
       amount:
         type: string

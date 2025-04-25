@@ -51,7 +51,6 @@ describe('lib/parser.js', () => {
     it('should find six transactions in the Karpel 278T PFD', (done) => {
         parser(transFiling)
             .then((filings) => {
-                console.log("LOL", filings[0].tables[0]);
                 // TODO: fix this the first row is always garbage
                 filings[0].tables[0].rows.length.should.equal(7);
                 Object.keys(filings[0].tables[0].rows[2]).length.should.equal(6);
